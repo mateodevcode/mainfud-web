@@ -5,6 +5,9 @@ import React from "react";
 const Clientes = () => {
   return (
     <div className="overflow-hidden w-full py-2 relative">
+      <h2 className="text-center font-bold text-2xl">
+        Nuestros Clientes confian en nosotros
+      </h2>
       <div className="flex animate-scroll w-[200%]">
         {[...clientes, ...clientes, ...clientes].map((src, index) => (
           <div
