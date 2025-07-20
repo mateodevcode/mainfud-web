@@ -6,7 +6,7 @@ import { RiMenu5Line } from "react-icons/ri";
 
 const Header = () => {
   return (
-    <div className="h-20 w-full flex items-center justify-between p-4">
+    <div className="h-20 w-full flex items-center justify-between p-4 sticky top-0 z-50">
       <div className="w-full lg:w-7/12 bg-stone-100 flex items-center justify-between rounded-full p-2 h-14">
         <div className="w-[120px] h-[25px] relative mx-1">
           <Image
@@ -41,7 +41,7 @@ const Header = () => {
           <RiMenu5Line className="text-3xl" />
         </button>
       </div>
-      <div className="md:w-4/12 bg-stone-100 hidden lg:flex items-center justify-between rounded-full p-2 h-14 font-sans">
+      <div className="md:w-80 bg-stone-100 hidden lg:flex items-center justify-between rounded-full p-2 h-14 font-sans">
         <button className="font-semibold text-sm bg-[#ff3131] text-white px-6 py-2 rounded-full hover:bg-[#ff3131]/80 transition-colors h-full cursor-pointer select-none active:scale-95 duration-200">
           Prueba una demo
         </button>

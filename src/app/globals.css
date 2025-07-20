@@ -41,3 +41,33 @@ body {
     animation: scroll 20s linear infinite;
   }
 }
+
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #000 #fff;
+}
+
+*::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #000;
+}
+
+*::-webkit-scrollbar-thumb {
+  background: #000;
+  border-radius: 10px;
+  transition: background 0.3s ease;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  background: #000;
+}
+
+/* Sombra a los productos */
+.shadow-png {
+  filter: drop-shadow(0 5px 5px rgba(0, 0, 0, 0.3));
+}
